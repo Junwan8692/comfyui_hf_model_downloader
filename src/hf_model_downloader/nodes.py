@@ -24,7 +24,17 @@ class HFModelDownloader:
                     "multiline": False,
                     "default": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors"
                 }),
-                "model_category": (["checkpoints", "loras", "vae", "controlnet", "upscale_models", "clip_vision", "embeddings"],),
+                "model_category": ([
+                    "checkpoints", 
+                    "loras", 
+                    "vae", 
+                    "controlnet", 
+                    "upscale_models", 
+                    "clip_vision", 
+                    "embeddings", 
+                    "diffusion_models", 
+                    "text_encoders", 
+                    ],),
                 "optional_filename": ("STRING", {
                     "multiline": False,
                     "default": ""

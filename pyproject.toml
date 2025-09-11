@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "comfyui_hf_model_downloader"
-version = "1.0.0" 
+version = "1.0.1" 
 description = "A simple custom node to download models from Hugging Face URLs directly into your ComfyUI model folders."
 authors = [
   {name = "Junwan Kim", email = "junwan8692@gmail.com"}
